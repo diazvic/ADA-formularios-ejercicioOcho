@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio ocho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="contenedor">
+        <form>
+            <div class="seccion-uno">
+                <label class="destino">
+                    Your Destination
+                    <input type="text" class="texto" placeholder="Enter a destination or hotel name">
+                </label>
+            </div>
+            <div class="seccion-dos">
+                <div class="box-uno">
+                    <label class="check"> 
+                        Check In
+                        <input type="date" class="fecha" placeholder="dd/mm/aaaa">
+                    </label>
+                </div>
+                <div class="box-dos">
+                    <label class="check">
+                        Check out
+                        <input type="date" class="fecha" placeholder="dd/mm/aaaa">
+                    </label>
+                </div>
+            </div>
+            <div class="seccion-tres">
+                <div class="box-tres">
+                    <label class="opciones">
+                        Rooms
+                        <select name="rooms" class="seleccionar">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="box-cuatro">
+                    <label class="opciones">
+                        Adults
+                        <select name="adults" class="seleccionar">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="box-cinco">
+                    <label class="opciones">
+                        Children
+                        <select name="children" class="seleccionar">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="seccion-cuatro">
+                <input type="submit" class="boton" value="Check availability">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial,sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #117A65;
+
+}
+.contenedor{
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F9F9;
+}
+
+.seccion-uno{
+    width: 550px;
+    height: 80px;
+}
+.destino{
+    display: flex;
+    flex-direction: column;
+}
+.texto{
+    height: 40px;
+}
+.seccion-dos{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 70px;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+}
+.fecha{
+    height: 40px;
+    width: 250px;
+}
+.seccion-tres{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 70px;
+}
+.opciones{
+    display: flex;
+    flex-direction: column;
+}
+.seleccionar{
+    height: 35px;
+    width: 150px;
+}
+.seccion-cuatro{
+    width: 550px;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.boton{
+    width: 160px;
+    height: 50px;
+    background-color: #3498DB;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
